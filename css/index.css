@@ -1,19 +1,19 @@
 .version.index /* version checker */
 {
-	color: #0000E8;
-	background-color: #99DBEC;
+	color: #000017;
+	background-color: #F88FB3;
 }
 
 #page
 {
 	z-index: 1;
-	min-height: 56px;
+	min-height: 376px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
 	padding-top: 62px;
-	padding-bottom: 382px;
+	padding-bottom: 62px;
 	width: 100%;
 	max-width: 1170px;
 	margin-left: auto;
@@ -31,6 +31,48 @@
 	position: relative;
 	width: 35.65%;
 	margin-left: 32.23%;
+}
+
+#pu97
+{
+	margin-top: 24px;
+	width: 85.22%;
+	margin-left: 7.44%;
+}
+
+#u97
+{
+	z-index: 6;
+	height: 327px;
+	position: relative;
+	margin-right: -10000px;
+	width: 29.09%;
+	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
+	background-size: cover;
+}
+
+#u118
+{
+	z-index: 7;
+	height: 327px;
+	position: relative;
+	margin-right: -10000px;
+	width: 29.09%;
+	left: 35.41%;
+	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
+	background-size: cover;
+}
+
+#u121
+{
+	z-index: 8;
+	height: 327px;
+	position: relative;
+	margin-right: -10000px;
+	width: 29.09%;
+	left: 70.92%;
+	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
+	background-size: cover;
 }
 
 #muse_css_mq,.html
