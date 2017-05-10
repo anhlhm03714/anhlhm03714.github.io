@@ -1,0 +1,184 @@
+.version.index /* version checker */
+{
+	color: #000018;
+	background-color: #546C17;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 376px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	padding-top: 62px;
+	padding-bottom: 62px;
+	width: 100%;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slideshowu135
+{
+	z-index: 7;
+	width: 0.01px;
+	height: 0px;
+	margin-top: 43px;
+	position: relative;
+	margin-left: 21.8%;
+}
+
+#u147
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u147popup
+{
+	z-index: 8;
+}
+
+#u148
+{
+	z-index: 9;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u152
+{
+	z-index: 11;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u150
+{
+	z-index: 13;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u136-4
+{
+	width: 25px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#u136-4popup
+{
+	z-index: 15;
+}
+
+#u160-4
+{
+	width: 25px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	color: #999999;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 0px;
+	left: 56px;
+}
+
+#u160-4popup
+{
+	z-index: 19;
+}
+
+#u145-4
+{
+	width: 81px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 51px;
+	left: 0px;
+}
+
+#u145-4popup
+{
+	z-index: 23;
+}
+
+#u136,#u145
+{
+	color: #999999;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u94-4
+{
+	z-index: 2;
+	min-height: 56px;
+	background-color: transparent;
+	font-size: 30px;
+	text-align: center;
+	line-height: 36px;
+	top: -43px;
+	margin-bottom: -43px;
+	position: relative;
+	width: 35.65%;
+	margin-left: 32.23%;
+}
+
+#u124
+{
+	z-index: 6;
+	height: 278px;
+	margin-top: 42px;
+	position: relative;
+	width: 82.65%;
+	margin-left: 10%;
+	background: transparent url("../images/ham%20wordpress%20(2).jpg") no-repeat left top;
+	background-size: cover;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+
