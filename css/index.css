@@ -1,23 +1,152 @@
 .version.index /* version checker */
 {
-	color: #000017;
-	background-color: #F88FB3;
+	color: #0000EA;
+	background-color: #594925;
 }
 
 #page
 {
 	z-index: 1;
-	min-height: 376px;
+	min-height: 727.9999999999998px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
-	padding-top: 62px;
-	padding-bottom: 62px;
+	padding-bottom: 0px;
 	width: 100%;
 	max-width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-top: 62px;
+	width: 100%;
+}
+
+#slideshowu135
+{
+	z-index: 7;
+	width: 0.01px;
+	height: 0px;
+	margin-top: 43px;
+	position: relative;
+	margin-left: 21.8%;
+}
+
+#u147
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u147popup
+{
+	z-index: 8;
+}
+
+#u148
+{
+	z-index: 9;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u152
+{
+	z-index: 11;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u150
+{
+	z-index: 13;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u136-4
+{
+	width: 25px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#u136-4popup
+{
+	z-index: 15;
+}
+
+#u160-4
+{
+	width: 25px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	color: #999999;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 0px;
+	left: 56px;
+}
+
+#u160-4popup
+{
+	z-index: 19;
+}
+
+#u145-4
+{
+	width: 81px;
+	min-height: 20px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: fixed;
+	top: 51px;
+	left: 0px;
+}
+
+#u145-4popup
+{
+	z-index: 23;
+}
+
+#u136,#u145
+{
+	color: #999999;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
 }
 
 #u94-4
@@ -28,51 +157,70 @@
 	font-size: 30px;
 	text-align: center;
 	line-height: 36px;
+	top: -43px;
+	margin-bottom: -43px;
 	position: relative;
 	width: 35.65%;
 	margin-left: 32.23%;
 }
 
-#pu97
-{
-	margin-top: 24px;
-	width: 85.22%;
-	margin-left: 7.44%;
-}
-
-#u97
+#u124
 {
 	z-index: 6;
-	height: 327px;
+	height: 278px;
+	margin-top: 42px;
 	position: relative;
-	margin-right: -10000px;
-	width: 29.09%;
-	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
+	width: 82.65%;
+	margin-left: 10%;
+	background: transparent url("../images/ham%20wordpress%20(2).jpg") no-repeat left top;
 	background-size: cover;
 }
 
-#u118
+#u232
 {
-	z-index: 7;
-	height: 327px;
+	z-index: 28;
+	height: 852px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	max-width: 2000px;
+	min-width: 300px;
+	margin-top: 133px;
 	position: relative;
-	margin-right: -10000px;
-	width: 29.09%;
-	left: 35.41%;
-	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
-	background-size: cover;
+	width: 30%;
+	margin-left: 37.78%;
 }
 
-#u121
+#u229
 {
-	z-index: 8;
-	height: 327px;
-	position: relative;
-	margin-right: -10000px;
-	width: 29.09%;
-	left: 70.92%;
-	background: transparent url("../images/cacthuoc%20tinh%20(2).jpg") no-repeat left top;
-	background-size: cover;
+	z-index: 27;
+	height: 191px;
+}
+
+.ie #u229
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u229-bw
+{
+	z-index: 27;
+	margin-top: -129px;
+	margin-bottom: -129px;
+	height: 191px;
 }
 
 #muse_css_mq,.html

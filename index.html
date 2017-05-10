@@ -3,7 +3,7 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -12,24 +12,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?402165683" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3931719973" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 </script>
-   </head>
+    <!--HTML Widget code-->
+  
+<style>
+	.fb-comments, .fb-comments * {
+		width:100% !important;
+	}
+</style>
+
+ </head>
  <body>
 
+  <!--HTML Widget code-->
+  
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+  
   <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="u94-4"><!-- content -->
-    <p>Le hong anh</p>
+   <div class="position_content" id="page_position_content">
+    <div class="SlideShowWidget clearfix HeroFillFrame colelem" id="slideshowu135"><!-- none box -->
+     &nbsp;
+     <div class="popup_anchor" id="u147popup">
+      <div class="SlideShowContentPanel clearfix fullscreen" id="u147"><!-- stack box -->
+       <div class="SSSlide clip_frame fullscreen" id="u148"><!-- image -->
+        <img class="ImageInclude" id="u148_img" data-src="images/cactus.jpg" src="images/blank.gif" alt="" data-width="1170" data-height="780"/>
+       </div>
+       <div class="SSSlide invi clip_frame fullscreen" id="u152"><!-- image -->
+        <img class="ImageInclude" id="u152_img" data-src="images/road.jpg" src="images/blank.gif" alt="" data-width="1170" data-height="780"/>
+       </div>
+       <div class="SSSlide invi clip_frame fullscreen" id="u150"><!-- image -->
+        <img class="ImageInclude" id="u150_img" data-src="images/trees.jpg" src="images/blank.gif" alt="" data-width="1170" data-height="780"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u136-4popup">
+      <div class="SSPreviousButton clearfix" id="u136-4"><!-- content -->
+       <p><span id="u136">&lt;</span></p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u160-4popup">
+      <div class="SSNextButton clearfix" id="u160-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u145-4popup">
+      <div class="SlideShowLabel SSSlideCount clearfix" id="u145-4"><!-- content -->
+       <p><span id="u145">1 - 3</span></p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u94-4"><!-- content -->
+     <p>Le hong anh</p>
+    </div>
+    <div class="museBGSize colelem" id="u124"><!-- simple frame --></div>
+    <div class="colelem" id="u232"><!-- custom html -->
+     
+<div class="fb-comments" data-href="anhlhm03714.github.io" data-mobile="false" data-width="100%" data-colorscheme="light" data-action="comment" data-num-posts="5" data-order_by="social"></div>
+
+</div>
+    <div class="verticalspacer"></div>
+    <div class="browser_width colelem" id="u229-bw">
+     <div id="u229"><!-- simple frame --></div>
+    </div>
    </div>
-   <div class="clearfix colelem" id="pu97"><!-- group -->
-    <div class="museBGSize grpelem" id="u97"><!-- simple frame --></div>
-    <div class="museBGSize grpelem" id="u118"><!-- simple frame --></div>
-    <div class="museBGSize grpelem" id="u121"><!-- simple frame --></div>
-   </div>
-   <div class="verticalspacer"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -40,6 +99,10 @@
 </script>
   <script src="scripts/museutils.js?531812214" type="text/javascript"></script>
   <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
+  <script src="scripts/webpro.js?4156477058" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?4058618124" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?3810062583" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?4174436727" type="text/javascript"></script>
   <script src="scripts/jquery.musepolyfill.bgsize.js?120190942" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?3866665977" type="text/javascript"></script>
   <!-- Other scripts -->
@@ -50,7 +113,10 @@ for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.re
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('#slideshowu135', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullScreen',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu135 */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});

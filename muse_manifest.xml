@@ -1,10 +1,15 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="anhlhm03714.github.io" resolutions="1x" timestamp="1494386397204">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="anhlhm03714.github.io" resolutions="1x" timestamp="1494388520274">
   <folder name="images">
-    <file name="cacthuoc tinh (2).jpg" crc="3867684067" ref="index"/>
+    <file name="cactus.jpg" crc="491424337" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="road.jpg" crc="180693847" seo="true" ref="index"/>
+    <file name="trees.jpg" crc="4071309946" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="ham wordpress (2).jpg" crc="3926151683" ref="index"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="402165683" ref="index"/>
+    <file name="index.css" crc="3931719973" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="484278746" ref="index"/>
@@ -12,6 +17,10 @@
     <file name="whatinput.js" crc="84559013" ref="index"/>
     <file name="jquery.watch.js" crc="3866665977" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
   </folder>
-  <file name="index.html" crc="4246179346" seo="true" mt="1494386396915" redirect="true"/>
+  <file name="index.html" crc="4170516560" seo="true" mt="1494388316885" redirect="true"/>
 </manifest>
